@@ -806,6 +806,10 @@ a {
   color: #fff;
 }
 
+.nav-link.w--current {
+  color: #5e5e5e;
+}
+
 .nav-menu {
   height: auto;
 }
@@ -1749,8 +1753,8 @@ a {
 
   .div-block-13 {
     left: auto;
-    top: -39px;
-    right: -5px;
+    top: -41px;
+    right: auto;
     display: block;
     padding-left: 0px;
     text-align: center;
@@ -1959,7 +1963,7 @@ a {
   }
 
   .div-block-13 {
-    top: -47px;
+    top: -43px;
     right: 0px;
     padding-left: 0px;
     text-align: center;
@@ -2132,6 +2136,10 @@ a {
     object-fit: fill;
     -o-object-position: 100% 0%;
     object-position: 100% 0%;
+  }
+
+  .div-block-13 {
+    top: -45px;
   }
 
   .paragraph-4 {
