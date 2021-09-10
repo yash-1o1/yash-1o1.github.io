@@ -367,7 +367,8 @@ a {
 .body {
   border-radius: 0px;
   background-color: #fff;
-  background-image: repeating-linear-gradient(180deg, #000, #616161 100%, #d2d2d2 0, #fafafa 0, #fff 0, #fff 0, #fff);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(100%, #616161), color-stop(0, #d2d2d2), color-stop(0, #fafafa), color-stop(0, #fff), color-stop(0, #fff), to(#fff));
+  background-image: linear-gradient(180deg, #000, #616161 100%, #d2d2d2 0, #fafafa 0, #fff 0, #fff 0, #fff);
   font-family: 'Gothic A1', sans-serif;
   text-decoration: none;
 }
@@ -1746,12 +1747,14 @@ a {
 
   .div-block-13 {
     left: auto;
+    right: -5px;
     display: block;
     padding-left: 0px;
     text-align: center;
   }
 
   .div-block-18 {
+    left: 0px;
     display: block;
     margin-bottom: 78px;
     padding-bottom: 53px;
@@ -1766,8 +1769,8 @@ a {
 
   .heading-7 {
     position: relative;
-    padding-left: 122px;
-    text-align: justify;
+    padding-left: 0px;
+    text-align: center;
     text-decoration: none;
   }
 }
@@ -1949,6 +1952,7 @@ a {
   }
 
   .div-block-13 {
+    right: 0px;
     padding-left: 0px;
     text-align: center;
   }
@@ -1990,7 +1994,8 @@ a {
   }
 
   .body {
-    background-image: repeating-linear-gradient(180deg, #000, #686868 84%, #a8a8a8 100%, #fff);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(84%, #686868), color-stop(100%, #a8a8a8), to(#fff));
+    background-image: linear-gradient(180deg, #000, #686868 84%, #a8a8a8 100%, #fff);
     background-clip: border-box;
     -webkit-text-fill-color: inherit;
   }
