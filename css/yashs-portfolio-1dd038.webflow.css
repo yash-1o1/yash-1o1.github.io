@@ -1749,6 +1749,7 @@ a {
 
   .div-block-13 {
     left: auto;
+    top: -39px;
     right: -5px;
     display: block;
     padding-left: 0px;
@@ -1774,6 +1775,10 @@ a {
     padding-left: 0px;
     text-align: center;
     text-decoration: none;
+  }
+
+  .image-8 {
+    top: auto;
   }
 }
 
@@ -1954,6 +1959,7 @@ a {
   }
 
   .div-block-13 {
+    top: -47px;
     right: 0px;
     padding-left: 0px;
     text-align: center;
@@ -1971,6 +1977,7 @@ a {
   }
 
   .image-8 {
+    top: auto;
     padding-bottom: 0px;
   }
 }
@@ -2137,7 +2144,8 @@ a {
   .heading-7 {
     position: relative;
     left: 0px;
-    padding-left: 2px;
+    padding-right: 9px;
+    padding-left: 9px;
     text-align: center;
   }
 
