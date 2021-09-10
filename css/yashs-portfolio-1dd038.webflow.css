@@ -1443,6 +1443,8 @@ a {
   top: 17px;
   display: block;
   overflow: visible;
+  max-height: none;
+  max-width: 487.484375px;
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
@@ -2126,7 +2128,8 @@ a {
   }
 
   .paragraph-4 {
-    padding-left: 0px;
+    padding-right: 19px;
+    padding-left: 19px;
     text-align: center;
     text-decoration: none;
   }
