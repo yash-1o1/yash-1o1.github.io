@@ -367,8 +367,8 @@ a {
 .body {
   border-radius: 0px;
   background-color: #fff;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(100%, #616161), color-stop(0, #d2d2d2), color-stop(0, #fafafa), color-stop(0, #fff), color-stop(0, #fff), to(#fff));
-  background-image: linear-gradient(180deg, #000, #616161 100%, #d2d2d2 0, #fafafa 0, #fff 0, #fff 0, #fff);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#616161), to(#000));
+  background-image: linear-gradient(180deg, #616161, #000);
   font-family: 'Gothic A1', sans-serif;
   text-decoration: none;
 }
@@ -1994,8 +1994,8 @@ a {
   }
 
   .body {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(84%, #686868), color-stop(100%, #a8a8a8), to(#fff));
-    background-image: linear-gradient(180deg, #000, #686868 84%, #a8a8a8 100%, #fff);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#616161), to(#000));
+    background-image: linear-gradient(180deg, #616161, #000);
     background-clip: border-box;
     -webkit-text-fill-color: inherit;
   }
