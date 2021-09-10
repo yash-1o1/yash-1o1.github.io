@@ -1967,6 +1967,10 @@ a {
     padding-left: 0px;
     text-align: center;
   }
+
+  .image-8 {
+    padding-bottom: 0px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1994,8 +1998,7 @@ a {
   }
 
   .body {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#616161), to(#000));
-    background-image: linear-gradient(180deg, #616161, #000);
+    background-image: linear-gradient(225deg, #616161, #000);
     background-clip: border-box;
     -webkit-text-fill-color: inherit;
   }
@@ -2115,6 +2118,8 @@ a {
   .image-8 {
     position: relative;
     left: auto;
+    top: -66px;
+    padding: 70px;
   }
 }
 
