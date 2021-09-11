@@ -807,7 +807,15 @@ a {
 }
 
 .nav-link.w--current {
-  color: #5e5e5e;
+  color: #4a4a4a;
+}
+
+.nav-link.w--current:hover {
+  border-style: none;
+  border-width: 1px;
+  border-color: #000;
+  border-radius: 0px;
+  box-shadow: inset 0 -2px 0 0 #515151;
 }
 
 .nav-menu {
@@ -1448,7 +1456,7 @@ a {
   display: block;
   overflow: visible;
   max-height: none;
-  max-width: 487.484375px;
+  max-width: 444px;
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
@@ -2011,14 +2019,14 @@ a {
   }
 
   .body {
-    overflow: hidden;
+    overflow: visible;
     margin-bottom: auto;
     padding-bottom: 0px;
     background-image: radial-gradient(circle farthest-corner at 50% 50%, #616161, #000);
     background-clip: border-box;
     -webkit-text-fill-color: inherit;
-    -o-object-fit: none;
-    object-fit: none;
+    -o-object-fit: fill;
+    object-fit: fill;
   }
 
   .feature-content {
