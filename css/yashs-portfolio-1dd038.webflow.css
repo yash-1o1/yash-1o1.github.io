@@ -368,9 +368,12 @@ a {
   overflow: visible;
   border-radius: 0px;
   background-color: #fff;
-  background-image: radial-gradient(circle farthest-corner at 50% 50%, #616161, #000);
+  background-image: radial-gradient(circle farthest-side at 50% 50%, #616161, #000);
+  direction: ltr;
   font-family: 'Gothic A1', sans-serif;
   text-decoration: none;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
 }
 
 .heading {
@@ -1307,7 +1310,7 @@ a {
 
 .container {
   position: relative;
-  top: 158px;
+  top: 104px;
   display: block;
   padding-right: 0px;
   text-align: center;
@@ -1364,7 +1367,7 @@ a {
 .div-block-13 {
   position: relative;
   left: auto;
-  top: -75px;
+  top: -46px;
   right: -20px;
   display: inline-block;
   margin-top: 0px;
@@ -1436,7 +1439,7 @@ a {
 .div-block-18 {
   position: relative;
   left: -20px;
-  top: auto;
+  top: 39px;
   display: inline-block;
   margin-top: 0px;
   margin-bottom: auto;
@@ -1499,8 +1502,9 @@ a {
 
 .div-block-19 {
   position: relative;
-  bottom: -49px;
+  bottom: -46px;
   display: block;
+  overflow: visible;
   margin-left: 0px;
   padding-left: 0px;
   grid-auto-columns: 1fr;
@@ -1511,8 +1515,8 @@ a {
   font-style: normal;
   text-align: center;
   text-decoration: none;
-  -o-object-fit: fill;
-  object-fit: fill;
+  -o-object-fit: scale-down;
+  object-fit: scale-down;
 }
 
 .columns {
@@ -1603,6 +1607,46 @@ a {
 .social-icon:hover {
   position: relative;
   top: -15px;
+}
+
+.text-block-5 {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+  font-style: italic;
+  text-align: left;
+}
+
+.div-block-21 {
+  display: inline-block;
+  margin-bottom: 50px;
+  padding: 0px 69px;
+  color: #fff;
+  font-style: normal;
+}
+
+.heading-8 {
+  display: inline-block;
+  margin-bottom: -5px;
+  line-height: 35px;
+  font-style: italic;
+  text-align: left;
+}
+
+.italic-text {
+  color: #fff;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.text-span {
+  text-decoration: none;
+}
+
+.link-4 {
+  color: #fff;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {
@@ -1970,6 +2014,10 @@ a {
     margin-left: auto;
   }
 
+  .container {
+    text-align: center;
+  }
+
   .div-block-13 {
     top: -43px;
     right: 0px;
@@ -2130,6 +2178,7 @@ a {
 
   .container {
     position: relative;
+    left: -2px;
     display: block;
     overflow: visible;
     margin-top: 0px;
