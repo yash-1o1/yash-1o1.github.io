@@ -581,7 +581,7 @@ a {
     background-color: transparent;
     background-position: 50% 50%;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
   }
 
